@@ -64,3 +64,5 @@ function createCactus(){
     }
 createCactus();
 document.addEventListener('keyup', handlkeyup)
+document.addEventListener("touchstart", function (event){
+    jump()
